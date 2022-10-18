@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'Home.dart';
+import 'View/Screen/Profile.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home:  Home(),
+      home:  Profile(),
     );
   }
 }
