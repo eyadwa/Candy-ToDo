@@ -20,20 +20,5 @@ void main() {
     , title:"Candy_TODO",
   ));
 }
-// class MyApp extends StatelessWidget {
-//   const MyApp({super.key});
-//
-//
-//   @override
-//   Widget build(BuildContext context) {
-//     return MaterialApp(
-//       title: 'Candy TODO',
-//       theme: ThemeData(
-//
-//         primarySwatch: Colors.blue,
-//       ),
-//       home:  Profile(),
-//     );
-//   }
-// }
+
 

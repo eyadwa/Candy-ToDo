@@ -1,0 +1,11 @@
+{
+   "language" : "العربية",
+   "helloWorld": "اهلا بالعالم" ,
+   "profile": "الملف الشخصي",
+   "notification_settings": "اعدادات الاشعارات",
+   "get_email_notifications": "اظهار اشعارات الايميل",
+   "vibrate_on_alart": "الاهتزاز عندا التنبيه",
+   "floss_settings" : "إعدادات الخيط",
+   "share_your_task_completion_status" : "مشاركة حالة إنجاز المهمة الخاصة بك"
+
+}

@@ -1,7 +1,7 @@
 import 'package:candy_todo/Core/Const/ColorsApp.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 class Profile extends StatelessWidget {
   Profile({Key? key}) : super(key: key);
   bool value = true;
@@ -11,8 +11,8 @@ class Profile extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: const Text(
-          'Profile',
+        title:  Text(
+          '${ AppLocalizations.of(context)!.profile}',
           style: TextStyle(color: AppColors.blueAppbartext),
         ),
         backgroundColor: AppColors.AppbarColor,
@@ -69,10 +69,10 @@ class Profile extends StatelessWidget {
                   )
                 ],
               )),
-          const Padding(
+           Padding(
             padding: EdgeInsets.only(left: 16, top: 10, bottom: 20),
             child: Text(
-              "Notification Settings",
+              AppLocalizations.of(context)!.notification_settings,
               style: TextStyle(color: AppColors.blueAppbartext),
             ),
           ),
@@ -82,8 +82,8 @@ class Profile extends StatelessWidget {
             width: 375,
             child: Row(
               children: [
-                const Text(
-                  "Get email notifications",
+                 Text(
+                   AppLocalizations.of(context)!.get_email_notifications,
                   style:
                       TextStyle(color: AppColors.blueAppbartext, fontSize: 12),
                 ),
@@ -98,8 +98,8 @@ class Profile extends StatelessWidget {
             width: 375,
             child: Row(
               children: [
-                const Text(
-                  "Vibrate on alart",
+                 Text(
+                  AppLocalizations.of(context)!.vibrate_on_alart,
                   style:
                       TextStyle(color: AppColors.blueAppbartext, fontSize: 12),
                 ),
@@ -108,10 +108,10 @@ class Profile extends StatelessWidget {
               ],
             ),
           ),
-          const Padding(
+           Padding(
             padding: EdgeInsets.only(top: 25, left: 16, bottom: 36),
             child: Text(
-              "Floss Settings",
+              AppLocalizations.of(context)!.floss_settings,
               style: TextStyle(color: AppColors.blueAppbartext),
             ),
           ),
@@ -121,8 +121,8 @@ class Profile extends StatelessWidget {
             width: 375,
             child: Row(
               children: [
-                const Text(
-                  "Share profile with other floss users",
+                 Text(
+                  AppLocalizations.of(context)!.share_your_task_completion_status,
                   style:
                       TextStyle(color: AppColors.blueAppbartext, fontSize: 12),
                 ),
@@ -137,8 +137,8 @@ class Profile extends StatelessWidget {
             width: 375,
             child: Row(
               children: [
-                const Text(
-                  "Share your task completion status",
+                 Text(
+                  AppLocalizations.of(context)!.share_your_task_completion_status,
                   style:
                       TextStyle(color: AppColors.blueAppbartext, fontSize: 12),
                 ),
