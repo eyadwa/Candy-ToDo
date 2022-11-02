@@ -20,7 +20,7 @@ class FlutterReduxApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         theme: ThemeData.light(),
         supportedLocales: L10n.all,
-        localizationsDelegates: [
+        localizationsDelegates: const[
           AppLocalizations.delegate,
           GlobalMaterialLocalizations.delegate,
           GlobalCupertinoLocalizations.delegate,

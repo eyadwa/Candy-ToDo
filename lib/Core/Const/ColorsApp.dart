@@ -10,6 +10,7 @@ class AppColors {
  static const Color blacktext=Color(0xFF000000);
  static const Color SwitchColor=Color(0xFF93FFDF);
  static const Color IconColor=Color(0xFFDADADA);
+ static const Color backGroundDrawerColor=Color(0xFF979797);
 
 
 }

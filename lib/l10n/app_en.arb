@@ -14,6 +14,9 @@
        "get_email_notifications": "Get email notifications",
        "vibrate_on_alart": "Vibrate on alart",
        "floss_settings" : "Floss Settings",
-       "share_your_task_completion_status" : "Share your task completion status"
+       "share_your_task_completion_status" : "Share your task completion status",
+       "scheduler": "Scheduler",
+       "notifications": "Notifications",
+       "to_do" : "To-do"
 
 }

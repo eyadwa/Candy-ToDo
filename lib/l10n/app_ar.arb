@@ -6,6 +6,8 @@
    "get_email_notifications": "اظهار اشعارات الايميل",
    "vibrate_on_alart": "الاهتزاز عندا التنبيه",
    "floss_settings" : "إعدادات الخيط",
-   "share_your_task_completion_status" : "مشاركة حالة إنجاز المهمة الخاصة بك"
-
+   "share_your_task_completion_status" : "مشاركة حالة إنجاز المهمة الخاصة بك",
+   "scheduler": "Scheduler",
+   "notifications": "الاشعارات",
+   "to_do" : "To-do"
 }
